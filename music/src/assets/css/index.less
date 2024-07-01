@@ -1,0 +1,117 @@
+:root{
+  --webkit-scrollbar-thumb: hsla(0,0%,100%,0.1);
+  --page-color: aliceblue;
+  --page-bgd: rgb(24, 24, 24);
+  --head-bgd: rgba(30,30,30,.8);
+  --text-fff: #fff;
+  --purple-primary: #277fc0;
+  --menuitem-active-left: var(--purple-primary);
+  --menuitem-color: #a0a0a0;
+  --menuitem-active-color: #fff;
+  --menuitem-hover-color: #fff;
+  --menuitem-hover-bgd: none;
+  --menuitem-active-hover-bgd: hsla(0,0%,100%,0.05);
+  --menu-center-bdr-b: rgba(255, 255, 255, 0.1);
+  --border-right-wyy: rgba(255, 255, 255, 0.05);
+  --color-255rgba-03: rgba(255, 255, 255, .3);
+  --bgd--color-2d2f32: #2d2f32;
+
+  --hsla-005: hsla(0,0%,100%,0.05);
+  --hsla-01: hsla(0,0%,100%,0.1);
+  --hsla-02: hsla(0,0%,100%,0.2);
+  --hsla-03: hsla(0,0%,100%,0.3);
+  --hsla-04: hsla(0,0%,100%,0.4);
+  --hsla-05: hsla(0,0%,100%,0.5);
+  --hsla-06: hsla(0,0%,100%,0.6);
+  --hsla-07: hsla(0,0%,100%,0.7);
+  --hsla-08: hsla(0,0%,100%,0.8);
+  --hsla-09: hsla(0,0%,100%,0.9);
+  --bgd-24: rgb(24, 24, 24);
+  --rgda-255-005: rgba(255, 255, 255, 0.05);
+  --rgda-255-01: rgba(255, 255, 255, 0.1);
+  --rgda-30-08: rgba(255, 255, 255, 0.8);
+
+  --el-tabs-item-color: var(--hsla-04);
+  --el-tabs-item-active-color: var(--hsla-09);
+  --el-tabs-item-active-bar-color: #fff;
+  --el-button-color: var(--text-fff);
+  --sheet-name-color: var(--hsla-05);
+  --leave-text-color: var(--hsla-03);
+
+  --box-right-color: #ccc;
+
+  --button-border-color: var(--hsla-01);
+  --button-active-color:  #fff;
+
+  .imgLoadingBgd{
+    background: linear-gradient(90deg,#0d0d0e 25%,#0d0e0f 37%,#202123 63%) !important;
+    background-size: 400% 100%!important;
+  }
+  .el-button{
+    color:  #fff;
+  }
+  --vue-recycle-scroller__item-view-hover: var(--hsla-01);
+  --vue-recycle-scroller__item-view-nth-child: hsla(0, 0%, 100%, 0.04);
+
+  --menuWrapperCsslineColor: var(--menu-center-bdr-b);
+  --menuItemCssHoverbgd: var(--rgda-255-01);
+  --menuWrapperCssbgb: rgb(36, 36, 36);
+}
+
+
+
+.light:root{
+  --webkit-scrollbar-thumb: rgba(24, 24, 24, 0.2);
+  --page-bgd: rgb(255,255,255);
+  --head-bgd: rgb(236,65,65);
+  --page-color: block;
+  --text-fff: block;
+  --menuitem-active-left: var(--head-bgd);
+  --menuitem-color: block;
+  --menuitem-active-color: block;
+  --menuitem-hover-color: block;
+  --menuitem-hover-bgd: rgba(24, 24, 24, 0.08);
+  --menuitem-active-hover-bgd: rgba(24, 24, 24, 0.08);
+  --menu-center-bdr-b: var(--head-bgd);
+  --border-right-wyy: rgb(224,224,224);
+  --purple-primary: rgb(236,65,65);
+
+  --el-tabs-item-color: var(--page-color);
+  --el-tabs-item-active-color: rgb(236,65,65);
+  --el-tabs-item-active-bar-color: rgb(236,65,65);
+  --el-button-color: block;
+  --sheet-name-color: block;
+
+  --leave-text-color: #ccc;
+  --box-right-color: block;
+  --button-border-color: #ccc;
+  --button-active-color: #fff;
+
+  .imgLoadingBgd{
+    background: rgb(240, 242, 245) !important;
+    background-size: 400% 100%!important;
+  }
+  .el-button{
+    color: rgb(24, 24, 24);
+  }
+  --vue-recycle-scroller__item-view-nth-child: rgb(250,250,250);
+  --vue-recycle-scroller__item-view-hover: #e2e1e1;
+
+  --menuWrapperCssbgb: var(--page-bgd);
+  --menuWrapperCsslineColor: #ccc;
+  --menuItemCssHoverbgd: rgba(24, 24, 24, 0.08);
+}
+
+.imgdarkBgd{
+  background: linear-gradient(90deg,#0d0d0e 25%,#0d0e0f 37%,#202123 63%) !important;
+  background-size: 400% 100%!important;
+  :deep(.el-skeleton__image) {
+    svg{
+      color: #5b5c5f;
+    }
+  }
+}
+.imglightBgd{
+  background: rgb(240, 242, 245) !important;
+  background-size: 400% 100%!important;
+}
