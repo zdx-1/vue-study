@@ -43,8 +43,8 @@ export default defineConfig(({ command, mode }) => {
       proxy: {
           "/api": {
               // target: "https://lianghj.top:3000/",
-              target: env.VITE_API_URL,
-              //target: "http://localhost:3000/",
+              //target: env.VITE_API_URL,
+              target: "http://localhost:3000/",
               changeOrigin: true,
               rewrite: (path) => path.replace(/^\/api/, ""),
           },
